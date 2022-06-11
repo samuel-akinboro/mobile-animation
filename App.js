@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Fade from './components/Fade';
+import Interpolate from './components/Interpolate';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Fade />
+      {/* <Fade /> */}
+      <Interpolate />
     </View>
   );
 }
